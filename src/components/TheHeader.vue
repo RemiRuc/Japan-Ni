@@ -4,7 +4,7 @@
         <nav>
 			<ul>
 				<li><router-link exact :to="{name: 'Travel'}" id="nav-parcourir">Parcourir</router-link></li>
-				<li><router-link exact :to="{name: 'Start'}" id="nav-photos">Photos</router-link></li>
+				<li><router-link exact :to="{name: 'About'}" id="nav-photos">À propos</router-link></li>
 			</ul>
 		</nav>
     </header>
@@ -26,6 +26,12 @@ export default {
         color: white;
         padding: 50px 10%;
         position: absolute;
+        white-space: nowrap;
+    }
+    @media (max-width: 430px) {
+        header{
+            font-size: 0.65em;
+        }
     }
     h1 a{
         color: white;

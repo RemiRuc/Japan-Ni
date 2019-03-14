@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Start from '@/views/Start'
 import Travel from '@/views/Travel'
 import City from '@/views/City'
+import About from '@/views/About'
 
 Vue.use(Router)
 
@@ -24,5 +25,10 @@ export default new Router({
       name: 'City',
       component: City
     },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
+    }
   ]
 })

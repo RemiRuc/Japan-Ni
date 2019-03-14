@@ -30,6 +30,31 @@ export default {
   height: 100%;
   width: 100%;
 }
+
+::selection{
+  background: #888;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .view{
   height: 100%;
   width: 100%;

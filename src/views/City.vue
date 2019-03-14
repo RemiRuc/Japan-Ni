@@ -31,6 +31,11 @@ h2 {
   position: relative;
   font-size: 5em;
 }
+@media (max-width: 673px){
+  h2{
+    font-size: 1.9em;
+  }
+}
 span {
   position: absolute;
   z-index: -1;
@@ -55,7 +60,7 @@ span {
   background: rgba(255, 255, 255, 0.2);
   padding: 10px;
   flex: 1 1 500px;
-  opacity: 0.5;
+  opacity: 0.9;
 
   transition: all 0.3s;
 }

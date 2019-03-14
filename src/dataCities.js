@@ -13,7 +13,11 @@ const dataCities = new Vue({
       },
       tokyo: {
         path: require("@/assets/cities/tokyo.jpg"),
-        kanji: "東京"
+        kanji: "東京",
+        content: [
+          `Tokyo est la capitale du Japon. Il y a tellement de choses à faire là-bas, chaque quartier est différent l'un de l'autre.`
+        ],
+        photosNum: 14
       },
       hakuba: {
         path: require("@/assets/cities/hakuba.jpg"),
@@ -54,35 +58,67 @@ const dataCities = new Vue({
       },
       osaka: {
         path: require("@/assets/cities/osaka.jpg"),
-        kanji: "大阪"
+        kanji: "大阪",
+        content: [
+          `Osaka est la 3ème plus grande ville du Japon. A seulement quelques kilomètres de Kyoto, de Kobe et de Nara, elle est l'une des villes les plus attrayantes pour les touristes.`
+        ],
+        photosNum: 11
       },
       kyoto: {
         path: require("@/assets/cities/kyoto.jpg"),
-        kanji: "京都"
+        kanji: "京都",
+        content: [
+          `Kyoto est l'ancienne capitale du Japon (avant Tokyo). Contrairement à Tokyo, la ville de Kyoto a gardée une architecture beaucoup plus traditionelle dans encore beaucoup de ces quartiers. C'est aussi dans cette ville que se trouve le quartier de Gion, l'un des derniers repères où l'on peut croiser encore quelques Gaisha japonaises.`
+        ],
+        photosNum: 10
       },
       hiroshima: {
         path: require("@/assets/cities/hiroshima.jpg"),
-        kanji: "広島"
+        kanji: "広島",
+        content: [
+          `Hiroshima est tristement célèbre pour avoir été la cible de la 1ère bombe nucléaire jamais lancée dans l'histoire. La ville a été entièrement reconstruite mais garde un lourd souvenir de cette évènement. Les vestiges du batiment ciblé par la bombe ont été gardés et plusieurs monuments voulant rendre hommage aux victimes et à la paix sont visibles dans le centre de la ville.`
+        ],
+        photosNum: 13
       },
       miyajima: {
         path: require("@/assets/cities/miyajima.jpg"),
-        kanji: "宮島"
+        kanji: "宮島",
+        content: [
+          `Miyajima est l'un des endroits les plus beaux du Japon. C'est une île située à quelques kilomètres de Hiroshima. C'est litéralement un paradis accéssible par ferry où, tout comme à Nara, on peut y croiser des daims en libértés.`
+        ],
+        photosNum: 25
       },
       nara: {
         path: require("@/assets/cities/nara.jpg"),
-        kanji: "奈良"
+        kanji: "奈良",
+        content: [
+          `Nara est une ville proche de Kyoto. Elle est connu pour son fameux temple Fushimi Inari Taisha et le fait que des daims sauvages soit en libertés dans toute la ville.`
+        ],
+        photosNum: 4
       },
       matsumoto: {
         path: require("@/assets/cities/matsumoto.jpg"),
-        kanji: "松本"
+        kanji: "松本",
+        content: [
+          `Situé dans la préfécture de Nagano, Matsumoto abrite un chateau au nom terrifiant de "corbeau noir".`
+        ],
+        photosNum: 5
       },
       yugawara: {
         path: require("@/assets/cities/yugawara.jpg"),
-        kanji: "湯河原"
+        kanji: "湯河原",
+        content: [
+          `Yugawara est une toute petite ville méconnue des touristes. Il y a très peu de choses à faire là bas mais la ville, située près de la mer est tout de même magnifique. Les habitants sur places sont très surpris, et très intrigués lorsqu'ils croisent des étrangers.`
+        ],
+        photosNum: 6
       },
       nagoya: {
         path: require("@/assets/cities/nagoya.jpg"),
-        kanji: "名古屋"
+        kanji: "名古屋",
+        content: [
+          `Nagoya est la 4ème ville la plus peuplée du Japon. C'est là-bas qu'est né le fameux Pachinko, le jeu d'argent le plus populaire au Japon.`
+        ],
+        photosNum: 7
       }
     }
   }

@@ -50,6 +50,11 @@ export default {
   h2{
     font-size: 5em;
   }
+  @media (max-width: 520px){
+    h2{
+      font-size: 3em;
+    }
+  }
 
   button{
     margin: 50px 10px;
